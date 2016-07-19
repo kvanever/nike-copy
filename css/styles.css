@@ -48,4 +48,16 @@ table {
 *, *:before, *:after {
   box-sizing: border-box; }
 
+header {
+  display: flex;
+  flex-direction: column; }
+  header section {
+    display: flex;
+    justify-content: space-between; }
+    header section nav {
+      display: flex;
+      flex-direction: row; }
+      header section nav ul {
+        display: flex; }
+
 /*# sourceMappingURL=styles.css.map */
